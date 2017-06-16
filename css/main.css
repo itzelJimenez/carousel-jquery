@@ -1,0 +1,45 @@
+body{
+	background-color: #DADA40;
+}
+#carousel{
+	margin-top: 2%;	
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.carousel-content{
+	display: none;
+}
+
+.carousel-content.active{
+	display: block;
+}
+.carousel .carousel-content{
+	width: 80%;
+}
+.carousel .carousel-content>img{
+	width: 100%;
+}
+.indicator-item{
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 120px 4px;
+	background-color: rgba(255, 255, 255, 0.8);
+	transition: background-color .3s;
+	border-radius: 50%;
+}
+.indicators{
+	z-index: 2;
+  	bottom: 30px;
+  	position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+ }

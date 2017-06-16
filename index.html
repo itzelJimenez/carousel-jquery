@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Carousel con JS/jQuery</title>
+		<meta charset="utf-8">
+		<script src="https://use.fontawesome.com/75919d6994.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+	</head>
+	<body>
+		<div class="carousel container " id="carousel">
+			<div data-slide="0" class="carousel-content active">
+				<img src="imgs/foto1.jpg" alt="Imagen 1" class="card-image">
+			</div>
+			<div data-slide="1" class="carousel-content">
+				<img src="imgs/foto2.jpg" alt="Imagen 2" class="card-image">
+			</div>
+			<div data-slide="2" class="carousel-content">
+				<img src="imgs/foto3.jpg" alt="Imagen 3" class="card-image">
+			</div>
+			<div data-slide="3" class="carousel-content">
+				<img src="imgs/foto4.jpg" alt="Imagen 4" class="card-image">
+			</div>
+			<div data-slide="4" class="carousel-content">
+				<img src="imgs/foto5.jpg" alt="Imagen 4" class="card-image">
+			</div>
+		</div>
+		<div class="controls indicators container" id="controles">
+			<a class="previous"><</a>
+			<button type="button" data-target="0" class="control indicator-item"></button>
+			<button type="button" data-target="1" class="control indicator-item"></button>
+			<button type="button" data-target="2" class="control indicator-item"></button>
+			<button type="button" data-target="3" class="control indicator-item"></button>
+			<button type="button" data-target="4" class="control indicator-item"></button>
+			<a class="next">></a>
+		</div>
+
+
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+	</body>
+</html>
